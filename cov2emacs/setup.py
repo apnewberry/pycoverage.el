@@ -9,6 +9,7 @@ setup(name='cov2emacs',
       author=meta.__author__,
       description='FILL IN',
       scripts=['bin/cov2emacs'],
-      package_dir={'cov2emacslib':'cov2emacslib'},
+      package_dir={'cov2emacslib': 'cov2emacslib'},
       packages=['cov2emacslib'],
-)
+      install_requires=['coverage', ]
+      )
